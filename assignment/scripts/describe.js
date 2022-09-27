@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a string variable called name, and set it to "Dane".
+// Then, we check if the value of the name is equal to "Mary".
+// It is not, so we skip the first clause and move on to the "else"
+// section of the conditional, logging "How do you do?" to the console.
 
 //CODE
 /*
@@ -45,10 +45,14 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We initialize a variable called secret, without a value.
+// Then we create a variable called code, and set its value to 123.
+// Next, we check if the value of code is equal to 123. It is, so
+// we give the secret variable a value of "super", and double the
+// value of the code variable; it is now 246.
+// We check if the code variable is greater than 250; it
+// is not, so we skip the conditional. Finally, we log "super" to
+// the console.
 
 //CODE
 /*
@@ -70,10 +74,17 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We create a variable called isStudent and set it to true.
+// We create a variable called age and set it to 34.
+// We create a variable called zip and set it to 55407.
 //
+// First, we check if *both* isStudent is true and zip is greater
+// than 80000. isStudent is true, but zip is not greater than 80000,
+// so we move on.
+// Next, we check if *either* isStudent is false, or age is less than 30.
+// Neither condition is met, so we move on.
+// Next, we check if isStudent is true. It is, so we log
+// "Welcome to Prime!" to the console, and exit the conditional.
 
 //CODE
 /*
