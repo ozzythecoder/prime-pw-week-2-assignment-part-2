@@ -141,11 +141,15 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+
+// FIX -- these variables should have each other's values. colorOne
+// should be blue, colorTwo should be red.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
+  // FIX -- should assign "purple" to both colorOne *and* colorTwo.
   colorOne = 'purple';
 }
 */
@@ -158,6 +162,8 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX -- code should only run if both conditions are true.
+// Should use the and (&&) operator.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -171,7 +177,10 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// POTENTIAL FIX -- We should be checking the value of age as a mutable variable.
+// Even if the logic is the same, we should write (age >= minAge) for legibility.
 if(minAge <= age) {
+  // FIX -- should console log "enter" if the condition is met.
   console.log('no entry');
 } else {
   console.log('enter');
