@@ -47,6 +47,7 @@ if (name === 'Mary') {
 // 2. WRITE YOUR DESCRIPTION HERE
 // We initialize a variable called secret, without a value.
 // Then we create a variable called code, and set its value to 123.
+//
 // Next, we check if the value of code is equal to 123. It is, so
 // we give the secret variable a value of "super", and double the
 // value of the code variable; it is now 246.
@@ -74,7 +75,7 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// We create a variable called isStudent and set it to true.
+// We create a boolean variable called isStudent and set it to true.
 // We create a variable called age and set it to 34.
 // We create a variable called zip and set it to 55407.
 //
@@ -177,10 +178,11 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
-// POTENTIAL FIX -- We should be checking the value of age as a mutable variable.
+// POTENTIAL FIX -- We should be checking the value of age as the mutable variable.
 // Even if the logic is the same, we should write (age >= minAge) for legibility.
 if(minAge <= age) {
-  // FIX -- should console log "enter" if the condition is met.
+  // FIX -- should console log "enter" if the condition is met, and "no entry" if
+  // it is not met. Currently, this is backwards.
   console.log('no entry');
 } else {
   console.log('enter');
